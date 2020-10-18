@@ -88,7 +88,7 @@
           <tr>
             <td width="67%" valign="middle">
               <p align="center" lang="zh-cn"><name>Xueqi Yang 杨雪琦</name></p>
-              <p> I am recently a second year Ph.D. student in the <a href="http://ai4se.net/">RAISE Lab</a> (Real-world Artifical Intelligence for Software Engineering) at <a href="https://www.ncsu.edu/">North Carolina State University</a>, under the supervision of <a href="http://menzies.us/">Dr. Tim Menzies</a>. My interest includes Software Engineering and optimization. I am expected to graduate in 2023. 
+              <p> I am recently a third year Ph.D. student in the <a href="http://ai4se.net/">RAISE Lab</a> (Real-world Artifical Intelligence for Software Engineering) at <a href="https://www.ncsu.edu/">North Carolina State University</a>, under the supervision of <a href="http://menzies.us/">Dr. Tim Menzies</a>. My interest includes Software Engineering and optimization. I am expected to graduate in 2023.
               </p>
               <p>
               Before coming to NC State, I obtained my bachelor degree of Information Management and Information System with GPA 90/100 from <a href="http://www.dufe.edu.cn/">Dongbei University of Finance and Economics</a> in 2018 .
@@ -113,13 +113,14 @@
               	
               </p>
               <p>
-                I am now interested in machine learning optimization. I'm currently working on Static Warning Identification using active learning and FASTREAD to achieve higher recall with lower cost by exploring less irrelevant static warning samples and also dealing scalability problem with subsampling.
+                I am now interested in machine learning optimization. I'm currently working on Static Warning Identification using incrementally active learning and human-computer interaction to achieve higher recall with lower cost by exploring less irrelevant static warning samples, and also dealing feature extracting problem from programming language and SE artifacts with embedding methods.
               </p>
             </td>
           </tr>
         </table>
 
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td>
               <heading>Previous Projects</heading>
@@ -128,36 +129,91 @@
         </table>
         <table width="100%" align="center" border="0" cellpadding="20">
           <tr>
-            <td width="25%"><img src="image/pic2.jpg" alt="pacman" width="180" height="180"></td>
+            <td width="25%"><img src="image/research_icon.png" alt="pacman" width="180" height="180"></td>
             <td width="75%" valign="center">
+            <p>
+                <papertitle>
+                RA Projects (2018-Present):
+            </p>
+            <p>
+            (1) Test the linux mainline at source tree level with coccinelle, a program matching and transformation engine which provides the language SmPL (Semantic Patch Language) for specifying desired matches and transformations in C code. Implement feature extractors from warning messages and patches generated from coccinelle with TF-IDF and code2vec embedding methods. Utilize Incrementally Active Learning to predict actionable warnings and help Linux maintainers avoid the false positives reported by static analysis tools. (Under progress)
+            </p>
               <p>
-              	RA Projects (2016-2018):
+            (2) Implement deep neural networks in Keras and PyTorch with static defect artifacts to predict real defects to act on. Utilize regularisers to avoid DNN models from overfitting and lower the runnning overhead. Use Box-counting methods to explore the intrinsic dimension of SE data and match the complexity of machine learning algorithms with the datasets it handles.
               </p>
               <p>
-                (1) Credit Scoring via Fuzzy 2-norm Non-kernel Support Vector Machine. Finished an algorithm implementation of linear SVM, SVM with kernels, QSVM and clustered SVM with MATLAB based on the UCI data sets. 
-              </p>
-              <p>
-                (2) Quadratic Surface Support Vector Regression for Electric Load Forecasting. Implemented LS-SVR and QSSVR models with the interior point algorithm in the module "quadprog" of MATLAB, and the OLS regression and ANN models with the module "robustfit" and neural network toolbox of MATLAB, respectively.
-                <br>         
-              </p>
-              <p>
-              	Mathematical Contest in Modeling:
-              </p>
-              <p>
-                (1) Regional Water Supply Stress Index Analysis before and after Intervention, an analysis to regional water problem in Interdisciplinary Contest in Modeling in 2016.
-              </p>
-              <p>
-                (2)Allocation of taxi resource in the Internet era, the entry of China Undergraduate Mathematical Contest in Modeling in 2015. I partook problem analysis, data preprocessing, model construction, algorithm implementation and optimization.
-                <br>
-              </p>
-              <p>
-                
-                <br>                
+            (3) Identify actionable static warnings of nine Java projects generated by FindBugs with incrementally active learning and machine learning algorithms to achieve higher recall with lower cost by reducing false alarm. And utilize different sampling approaches (random sampling, uncertainty sampling and certainty sampling) to query warnings suggested by active learning algorithm. Interact the system with human oracle to update the system.
               </p>
             </td>
           </tr>
         </table>
+        
 
+                <table width="100%" align="center" border="0" cellpadding="20">
+                  <tr>
+                    <td width="25%"><img src="image/course_icon1.png" alt="pacman" width="180" height="180"></td>
+                    <td width="75%" valign="center">
+                    <p>
+                        <papertitle>
+                        Coursework Projects (Graduate):
+                    </p>
+                    <p>
+                    (1) Utilize Mask R-CNN with PyTorch for satellite images change detection and localization. Assess building damage from satellite imagery with a variety of disaster events and different damage extents.
+                    </p>
+                      <p>
+                    (2) Implement SmartWeather App in C# with Xamarin and Visual Studio. Use Architecture Diagram, Context Diagram and Quality Attribute Scenarios in software design. Utilize Fuzzy logic controller to converts a crisp input value into a fuzzy set with a predetermined lower and upper bound of impreciseness. And follow the Scrum process to iterate and manage software development.
+                      </p>
+                      <p>
+                    (3) Implement word2vec (CBOW and Skip-grams) and doc2vec (Doc2vec and Part-of-speech tagging) models in Python 3 on Sentimental Analysis Dataset and Question Answering Dataset. And compare performance of proposed methods with baseline methods (TF-IDF and BOW) in individual projects.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="image/pic2.jpg" alt="pacman" width="180" height="180"></td>
+            <td width="75%" valign="center">
+            <p>
+                <papertitle>
+                Undergraduate Projects (2016-2018):
+            </p>
+            <p>
+            (1) Credit Scoring via Fuzzy 2-norm Non-kernel Support Vector Machine. Finished an algorithm implementation of linear SVM, SVM with kernels, QSVM and clustered SVM with MATLAB based on the UCI data sets.
+                  
+            </p>
+              <p>
+            (2) Quadratic Surface Support Vector Regression for Electric Load Forecasting. Implemented LS-SVR and QSSVR models with the interior point algorithm in the module "quadprog" of MATLAB, and the OLS regression and ANN models with the module "robustfit" and neural network toolbox of MATLAB, respectively.
+                
+              </p>
+
+            </td>
+          </tr>
+        </table>
+        
+
+        <table width="100%" align="center" border="0" cellpadding="20">
+                <tr>
+                <td width="25%"><img src="image/math.jpg" alt="pacman" width="180" height="180"></td>
+                <td width="75%" valign="center">
+                <p>
+                    <papertitle>
+                Mathematical Contest in Modeling (Undergraduate):
+                </p>
+                <p>
+                (1) Regional Water Supply Stress Index Analysis before and after Intervention, an analysis to regional water problem in Interdisciplinary Contest in Modeling in 2016.
+                </p>
+                <p>
+                (2)Allocation of taxi resource in the Internet era, the entry of China Undergraduate Mathematical Contest in Modeling in 2015. I partook problem analysis, data preprocessing, model construction, algorithm implementation and optimization.
+                </p>
+                </td>
+                </tr>
+        </table>
+        
+        
+        
+        
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td>
@@ -169,13 +225,23 @@
           <tr>
             <td width="25%"><img src="image/pic1.jpeg" alt="pacman" width="160" height="160"></td>
             <td width="75%" valign="center">
+            <p>
+                Natural Language Processing, Computational Applied Logic - Fall 2020 (NCSU)
+                <br>
+                      
+            </p>
+            <p>
+                Spatial and Temporal Data Mining, Software Engineering - Spring 2020 (NCSU)
+                <br>
+                  
+            </p>
               <p>
-                Foundations of Software Science, Artificial Intelligence - Fall 2018 (NCSU)
+                Design and Analysis of Algorithms,Computer Networks - Spring 2019 (NCSU)
                 <br>
                 
               </p>
               <p>
-                Design and Analysis of Algorithms,Computer Networks - Spring 2019 (NCSU)
+                Foundations of Software Science, Artificial Intelligence - Fall 2018 (NCSU)
                 <br>
               </p>
               <p>
